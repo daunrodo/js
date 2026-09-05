@@ -1,11 +1,10 @@
 {
-  "name": "stratum-ws-proxy",
+  "name": "btc-stratum-proxy",
   "version": "1.0.0",
-  "main": "fix.js",
   "scripts": {
-    "start": "node fix.js"
+    "deploy": "wrangler deploy"
   },
-  "dependencies": {
-    "ws": "^8.18.0"
+  "devDependencies": {
+    "wrangler": "^3.0.0"
   }
 }
