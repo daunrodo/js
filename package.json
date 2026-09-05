@@ -1,0 +1,11 @@
+{
+  "name": "stratum-ws-proxy",
+  "version": "1.0.0",
+  "main": "fix.js",
+  "scripts": {
+    "start": "node fix.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
