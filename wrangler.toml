@@ -1,0 +1,6 @@
+name = "btc-stratum-proxy"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Wajib diaktifkan untuk fitur TCP Sockets (connect ke Stratum pool)
+compatibility_flags = [ "nodejs_compat" ]
